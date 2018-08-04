@@ -14,8 +14,16 @@ This includes
 3. Create maps/css, maps/js, maps/icons, maps/data
 4. Symlinking the mojomap libraries from the specified location
 5. Copy over a sample mojomap html file
+6. Optionally skip all of the above and use the cloud hosted versions of the js files
 
 While this is not done the structure of a an et map is the same as a mojomap - 
-
-<pathtomap>
-    
+< path to map >
+|______maps
+        |_____js
+              |_____mojomaps.js
+        |_____css
+              |_____mojomaps.css
+              |_____style.css
+        |_____data
+              |_____< geojson files go here >
+        |_____mojomap.html (contains key to drive spreadsheet definition for map)
