@@ -3,6 +3,8 @@ import os,sys
 
 if __name__=="__main__":
     path=sys.argv[1]
+    if not os.path.exists(path):
+	os.mkdir(path)
     if not os.path.exists(os.path.join(path,"maps")):    
         os.mkdir(os.path.join(path,"maps"))
     if not os.path.exists(os.path.join(path,"maps","css")):        

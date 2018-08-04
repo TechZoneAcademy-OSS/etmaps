@@ -1,1 +1,1 @@
-/home/arjun/dev/mojomaps/web/js/mojomaps.js
+../mojomaps/web/js/mojomaps.js
