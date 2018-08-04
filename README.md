@@ -17,16 +17,15 @@ This includes
 6. Optionally skip all of the above and use the cloud hosted versions of the js files
 
 While this is not done the structure of a an et map is the same as a mojomap - 
+```
 < path to map >
-
 |______maps
-
-    |_____js
-    
-    |      |_____mojomaps.js
+        |_____js
+        |      |_____mojomaps.js
         |_____css
-        |      |_____mojomaps.css
-        |      |_____style.css
+              |_____mojomaps.css
+              |_____style.css
         |_____data
               |_____< geojson files go here >
         |_____mojomap.html (contains key to drive spreadsheet definition for map)
+```
